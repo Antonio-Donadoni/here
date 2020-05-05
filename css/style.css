@@ -1,19 +1,19 @@
 *{margin: 0;
   padding: 0;
   box-sizing: border-box;}
+
 body{
   background-image:url("../img/wood2.jpg");
   background-size: cover;
   margin-left: 25%; margin-right: 25%;
 }
+
 form{
   margin: 10px 0;
 }
-section {
-  margin: 15px 0
-}
-header {
-  margin: 15px 0
+
+section, header {
+  margin: 20px 0;
 }
 
 footer {
@@ -21,45 +21,56 @@ footer {
   font-size: 120%;
   margin-top: 10px;
 }
+
 #gmaillogo {
   width: 120px ;
   vertical-align: middle;
 
 }
+
 #titolo{
   font-size: 200%;
   font-weight: bold;
 }
+
 #numbermail {
   background-color: darkorange;
   padding: 4px;
   border-radius: 50%;
   font-size: 120%
 }
+
 .italic {
   font-style: italic;
   font-size: 80%;
 }
+
+.row {
+  border: solid 1px black;
+}
+
 .mailsubject {
   display: inline-block;
   width: 30%;
   font-weight: bold;
   padding:1px 0 1px 3px ;
 }
+
 .mailbody {
   display: inline-block;
   width: 67%;
-   padding: 1px;
+  padding: 1px;
  }
+
 .unread {
   background-color: lightgrey;
-  border: solid 1px black;
  }
+
 .read {
   background-color: white;
-  border: solid 1px black;
   color: grey;
 }
+
 .white {
   color: whitesmoke;
 }
